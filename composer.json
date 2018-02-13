@@ -1,0 +1,21 @@
+{
+    "name": "root/mvc",
+    "description": "An example of MVC realization",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sergo",
+            "email": "malxao666@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "autoload": {
+        "classmap": [
+            "components",
+            "models",
+            "errors"
+        ]
+    }
+}
